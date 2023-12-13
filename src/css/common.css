@@ -11,3 +11,44 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.cat-card{
+    display: flex;
+    gap: 40px;
+}
+
+.cat-img{
+    border: 1px solid rgb(18, 89, 36);
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.cat-info{
+flex-direction: column;
+}
+.cat-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    line-height: 1.11;
+    color:rgb(18, 89, 36);
+}
+
+.cat-text1{
+    font-family: 'Roboto', sans-serif;
+    color: #000001;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+
+.cat-text2 {
+    color: #505051;
+    font-size: 27px;
+    font-style: italic;
+
+}
